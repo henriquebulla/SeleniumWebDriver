@@ -1,6 +1,7 @@
 
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -28,9 +29,28 @@ public class TesteCampoTreinamento {
 	public void testeTextArea() {
 		WebDriver driver = new ChromeDriver();
 		driver.get("file:///" +  System.getProperty("user.dir") + "/src/main/resources/componentes.html");
-		driver.findElement(By.xpath("//*[@id=\"elementosForm:sugestoes\"]")).sendKeys("HenriqueBulla");
-		assertEquals("Rezende Bulla", driver.findElement(By.xpath("//*[@id=\"elementosForm:sugestoes\"]")).getAttribute("value"));
+		driver.findElement(By.xpath("//*[@id=\"elementosForm:sugestoes\"]")).sendKeys("Henrique\n Rezende\n Bulla");
+		assertEquals("Henrique\n Rezende\n Bulla", driver.findElement(By.xpath("//*[@id=\"elementosForm:sugestoes\"]")).getAttribute("value"));
 		driver.quit();
-		
 	}
+	
+	@Test
+	public void testeRadioButton() {
+		WebDriver driver = new ChromeDriver();
+		driver.get("file:///" +  System.getProperty("user.dir") + "/src/main/resources/componentes.html");
+		driver.findElement(By.id("elementosForm:sexo:0")).click();
+		assertTrue(driver.findElement(By.id("elementosForm:sexo:0")).isSelected());
+		driver.quit();
+	}
+	
+	@Test
+	public void testeCheckbox() {
+		WebDriver driver = new ChromeDriver();
+		driver.get("file:///" +  System.getProperty("user.dir") + "/src/main/resources/componentes.html");
+		driver.findElement(By.id("elementosForm:comidaFavorita:2")).click();
+		assertTrue(driver.findElement(By.id("elementosForm:comidaFavorita:2")).isSelected());
+		//driver.quit();
+	}
+	
+	
 }
