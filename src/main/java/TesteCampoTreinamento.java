@@ -52,5 +52,7 @@ public class TesteCampoTreinamento {
 		//driver.quit();
 	}
 	
+	@Test
+	public void testeParaGit() {}
 	
 }
