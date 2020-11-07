@@ -6,7 +6,9 @@ import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
 
 public class TesteCampoTreinamento {
 
@@ -48,8 +50,20 @@ public class TesteCampoTreinamento {
 		driver.get("file:///" +  System.getProperty("user.dir") + "/src/main/resources/componentes.html");
 		driver.findElement(By.id("elementosForm:comidaFavorita:2")).click();
 		assertTrue(driver.findElement(By.id("elementosForm:comidaFavorita:2")).isSelected());
-		//driver.quit();
+		driver.quit();
 	}
 	
 		
+	@Test
+	public void testeComboBox() {
+		WebDriver driver = new ChromeDriver();
+		driver.get("file:///" +  System.getProperty("user.dir") + "/src/main/resources/componentes.html");
+		WebElement element = driver.findElement(By.xpath("//*[@id=\"elementosForm:escolaridade\"]")); // Adiciona a instacia achada pelo FindElement para o objeto element
+		Select combo = new Select(element); 
+//		combo.selectByIndex(3);
+//		combo.selectByValue("superior");  //Seleciona pelo value disponivel no ispecionar elemento dentro do navegador
+		combo.selectByVisibleText("Mestrado");
+		Assert.assertEquals("Mestrado", combo.getFirstSelectedOption().getText());
+		driver.quit();
+	}
 }
