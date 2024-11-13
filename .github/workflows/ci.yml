@@ -1,5 +1,3 @@
-name: Cucumber Selenium Tests
-
 on:
   push:
     branches:
@@ -20,7 +18,7 @@ jobs:
         uses: actions/setup-java@v3
         with:
           java-version: '11'
-          distribution: 'adoptopenjdk'
+          distribution: 'adoptium'  # Atualizado para 'adoptium'
 
       - name: Set up Maven (se usar Maven)
         uses: actions/setup-java@v3
