@@ -1,3 +1,4 @@
+@important
 Feature: Teste de campos do formulário
 
   Scenario: Teste do campo de texto

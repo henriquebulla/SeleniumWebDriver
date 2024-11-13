@@ -1,3 +1,4 @@
+@important
 Feature: Validação de alerta do formulário
 
   Scenario: Nome obrigatório

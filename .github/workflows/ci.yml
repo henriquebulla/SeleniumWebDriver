@@ -30,8 +30,18 @@ jobs:
       - name: Install dependencies
         run: mvn clean install  # ou ./mvnw install se usar o wrapper do Maven
 
+      - name: Install Chrome
+        run: sudo apt-get install -y google-chrome-stable
+
+      - name: Install ChromeDriver
+        run: |
+          CHROME_VERSION=$(google-chrome --version | grep -oP '\d+\.\d+\.\d+')
+          sudo wget -q "https://chromedriver.storage.googleapis.com/$CHROME_VERSION/chromedriver_linux64.zip" -O /tmp/chromedriver.zip
+          sudo unzip /tmp/chromedriver.zip -d /usr/bin/
+          sudo chmod +x /usr/bin/chromedriver
+
       - name: Run tests with headless Chrome
-        run: mvn test -Dcucumber.options="--tags @smoke" -Dwebdriver.chrome.driver="/usr/bin/chromedriver"
+        run: mvn test -Dcucumber.options="--tags @important" -Dwebdriver.chrome.driver="/usr/bin/chromedriver"
 
       - name: Upload test results
         if: always()
