@@ -1,11 +1,11 @@
 ## Estudo de Cucumber, Selenium e Integração Contínua (CI)
 
-<a>Este projeto tem como objetivo realizar um estudo prático sobre o uso de Cucumber, Selenium e Java, combinados com uma pipeline de Integração Contínua (CI). A ideia é explorar como essas ferramentas podem ser integradas para fornecer uma solução robusta para automação de testes.</a>
+Este projeto tem como objetivo realizar um estudo prático sobre o uso de Cucumber, Selenium e Java, combinados com uma pipeline de Integração Contínua (CI). A ideia é explorar como essas ferramentas podem ser integradas para fornecer uma solução robusta para automação de testes.
 
 ## Tecnologias Utilizadas
-<a>. Java: Linguagem de programação principal.</a>
-<a>. Cucumber: Framework de BDD (Behavior Driven Development) para facilitar a escrita de testes automatizados de forma legível e estruturada.</a>
-<a>. Selenium: Framework para automação de navegadores, utilizado para realizar testes de UI.</a>
+. Java: Linguagem de programação principal.<br>
+. Cucumber: Framework de BDD (Behavior Driven Development) para facilitar a escrita de testes automatizados de forma legível e estruturada.<br>
+. Selenium: Framework para automação de navegadores, utilizado para realizar testes de UI.<br>
 . CI (Integração Contínua): Automatização do processo de build e execução dos testes. O projeto está configurado para rodar automaticamente com o GitHub Actions.
 
 ## Funcionalidades
