@@ -18,7 +18,10 @@ jobs:
         uses: actions/setup-java@v3
         with:
           java-version: '11'
-          distribution: 'adoptium'  # Atualizado para 'adoptium'
+          distribution: 'temurin'  # Atualizado para 'adoptium'
+
+      - name: Verify JDK installation
+          run: java -version
 
       - name: Set up Maven (se usar Maven)
         uses: actions/setup-java@v3
