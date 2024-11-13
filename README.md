@@ -9,11 +9,11 @@ Este projeto tem como objetivo realizar um estudo prático sobre o uso de Cucumb
 . CI (Integração Contínua): Automatização do processo de build e execução dos testes. O projeto está configurado para rodar automaticamente com o GitHub Actions.
 
 ## Funcionalidades
-. Testes automatizados de UI com Selenium.
-. Testes automatizados de Gherkin com Cucumber.
-. Integração Contínua (CI) configurada para rodar os testes automaticamente a cada commit ou pr que for aberto para a branch "main", garantindo qualidade e confiabilidade no código.
+. Testes automatizados de UI com Selenium.<br>
+. Testes automatizados de Gherkin com Cucumber.<br>
+. Integração Contínua (CI) configurada para rodar os testes automaticamente a cada commit ou pr que for aberto para a branch "main", garantindo qualidade e confiabilidade no código.<br>
 
 ## Pré-requisitos
-. Java 11 ou superior
-. Maven: Para gerenciar as dependências e compilar o projeto.
-. chromedriver
+. Java 11 ou superior<br>
+. Maven: Para gerenciar as dependências e compilar o projeto.<br>
+. chromedriver<br>
