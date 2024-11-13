@@ -14,6 +14,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
+import steps.DSL;
 
 public class TesteCampoTreinamento {
 	
@@ -80,7 +81,7 @@ public class TesteCampoTreinamento {
 		combo.selectByVisibleText("Natacao");
 		combo.selectByVisibleText("Corrida");
 		combo.selectByVisibleText("O que eh esporte?");
-//		combo.deselectByVisibleText("O que eh esporte?"); retira a seleção 
+//		combo.deselectByVisibleText("O que eh esporte?");
 		List<WebElement> allSelectedOptions = combo.getAllSelectedOptions();
 		
 		int contador = 0;

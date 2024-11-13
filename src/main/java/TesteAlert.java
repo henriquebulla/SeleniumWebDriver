@@ -17,7 +17,8 @@ public class TesteAlert {
 	public void inicializaTeste() {
 		System.setProperty("webdriver.chrome.driver", "C://chromedriver.exe");
 		driver = new ChromeDriver();
-		driver.get("file:///" +  System.getProperty("user.dir") + "/src/main/resources/componentes.html");
+		driver.get("www.google.com.br");
+		//driver.get("file:///" +  System.getProperty("user.dir") + "/src/main/resources/componentes.html");
 	}
 	
 	@After
