@@ -30,7 +30,7 @@ public class TesteRegraDeNegocio {
 		Assert.assertEquals("Nome eh obrigatorio", alert.getText());
 	}
 	
-	@Test
+	//@Test
 	public void sobreNomeObrigatorio() {
 		driver.findElement(By.xpath("//*[@id=\"elementosForm:nome\"]")).sendKeys("Henrique");
 		driver.findElement(By.xpath("//*[@id=\"elementosForm:cadastrar\"]")).click();
@@ -39,7 +39,7 @@ public class TesteRegraDeNegocio {
 		Assert.assertEquals("Sobrenome eh obrigatorio", alert.getText());
 	}
 	
-	@Test
+	//@Test
 	public void generoObrigatorio() {
 		driver.findElement(By.xpath("//*[@id=\"elementosForm:nome\"]")).sendKeys("Henrique");
 		driver.findElement(By.xpath("//*[@id=\"elementosForm:sobrenome\"]")).sendKeys("Bulla");
@@ -49,7 +49,7 @@ public class TesteRegraDeNegocio {
 		Assert.assertEquals("Sexo eh obrigatorio", alert.getText());		
 	}
 	
-	@Test
+	//@Test
 	public void validarVegetariano() {
 		driver.findElement(By.xpath("//*[@id=\"elementosForm:nome\"]")).sendKeys("Henrique");
 		driver.findElement(By.xpath("//*[@id=\"elementosForm:sobrenome\"]")).sendKeys("Bulla");

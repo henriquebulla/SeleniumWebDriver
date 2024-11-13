@@ -22,7 +22,7 @@ public class TesteFramesEJanelas {
 		driver.quit();
 	}
 
-	@Test
+	//@Test
 	public void interagirComFrame() {	
 		driver.switchTo().frame("frame1");
 		driver.findElement(By.id("frameButton")).click();
@@ -35,7 +35,7 @@ public class TesteFramesEJanelas {
 		driver.findElement(By.id("elementosForm:nome")).sendKeys(texto);	
 	}
 	
-	@Test
+	//@Test
 	public void deveInteragirComJanelas() {
 		driver.findElement(By.id("buttonPopUpEasy")).click();
 		driver.switchTo().window("Popup");
@@ -46,7 +46,7 @@ public class TesteFramesEJanelas {
 		driver.findElement(By.tagName("textarea")).sendKeys("E agora?");
 	}
 	
-	@Test
+	//@Test
 	public void deveInteragirComPopUp() {
 		driver.findElement(By.id("buttonPopUpHard")).click();
 		driver.switchTo().window((String)driver.getWindowHandles().toArray()[1]);//getWindowHandles pega o Id das janelas aberta

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="66" failures="0" name="test.RunCucumberTest" time="0.042" errors="0" skipped="53">
+  <properties>
+    <property name="idea.version" value="2021.3"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="cucumber.options" value="src\test\resources\features"/>
+    <property name="java.vm.version" value="11.0.12+7"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Foundation\jdk-11.0.12.7-hotspot\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Admin\IdeaProjects\SeleniumWebDriver"/>
+    <property name="java.vm.vendor" value="Eclipse Foundation"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Admin\IdeaProjects\SeleniumWebDriver"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="11.0.12+7"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Admin\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Eclipse Foundation\jdk-11.0.12.7-hotspot\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Eclipse Foundation\jdk-11.0.12.7-hotspot\bin;C:\Python38\Scripts\;C:\Python38\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Program Files\Git\cmd;C:\Tools\cmder\vendor\git-for-windows\bin;C:\Tools\cmder\vendor\git-for-windows\usr\bin;C:\Users\Admin\AppData\Local\Android\Sdk\platform-tools;C:\Users\Admin\AppData\Local\Android\Sdk\tools;C:\Users\Admin\AppData\Local\Android\Sdk\tools\lib;C:\Users\Admin\AppData\Local\Android\Sdk\tools\bin;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files\nodejs\;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;C:\Users\Admin\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Admin\AppData\Local\Yarn\bin;C:\Users\Admin\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3\bin;;C:\Users\Admin\AppData\Roaming\npm;C:\MinGW\bin;C:\MinGW\mingw32\bin;;."/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3\plugins\maven\lib\maven3/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Admin"/>
+    <property name="user.timezone" value="GMT-03:00"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="Admin"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3\plugins\maven\lib\maven3\boot\plexus-classworlds.license"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2021.3 test -Dcucumber.options=src\test\resources\features"/>
+    <property name="java.home" value="C:\Program Files\Eclipse Foundation\jdk-11.0.12.7-hotspot"/>
+    <property name="user.language" value="pt"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.12"/>
+    <property name="java.vendor" value="Eclipse Foundation"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2021-07-20"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="Temurin-11.0.12+7"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Scenario: Teste do campo de texto" name="Given que o formulário foi aberto" time="0.003">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Teste do campo de texto" name="When eu preencho o campo de nome com &quot;Henrique&quot; e o sobrenome com &quot;Rezende Bulla&quot;" time="0.003">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Teste do campo de texto" name="Then o campo de nome deve conter &quot;Henrique&quot;" time="0.003">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Teste do campo de texto" name="And o campo de sobrenome deve conter &quot;Rezende Bulla&quot;" time="0.003">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Teste do campo de texto" name="Scenario: Teste do campo de texto" time="0.003">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Teste do campo de texto" name="Scenario: Teste do campo de texto" time="0.003"/>
+  <testcase classname="Scenario: Teste do campo de texto para área de sugestões" name="Given que o formulário foi aberto" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Teste do campo de texto para área de sugestões" name="When eu preencho o campo de sugestões com &quot;Henrique\nRezende\nBulla&quot;" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Teste do campo de texto para área de sugestões" name="Then o campo de sugestões deve conter &quot;Henrique\nRezende\nBulla&quot;" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Teste do campo de texto para área de sugestões" name="Scenario: Teste do campo de texto para área de sugestões" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Teste do campo de texto para área de sugestões" name="Scenario: Teste do campo de texto para área de sugestões" time="0"/>
+  <testcase classname="Scenario: Teste do botão de rádio" name="Given que o formulário foi aberto" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Teste do botão de rádio" name="When eu seleciono o rádio do sexo" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Teste do botão de rádio" name="Then o botão de rádio para sexo deve estar selecionado" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Teste do botão de rádio" name="Scenario: Teste do botão de rádio" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Teste do botão de rádio" name="Scenario: Teste do botão de rádio" time="0"/>
+  <testcase classname="Scenario: Teste do checkbox" name="Given que o formulário foi aberto" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Teste do checkbox" name="When eu seleciono o checkbox de comida favorita" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Teste do checkbox" name="Then o checkbox deve estar selecionado" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Teste do checkbox" name="Scenario: Teste do checkbox" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Teste do checkbox" name="Scenario: Teste do checkbox" time="0.001"/>
+  <testcase classname="Scenario: Teste do combo box de escolaridade" name="Given que o formulário foi aberto" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Teste do combo box de escolaridade" name="When eu seleciono a escolaridade como &quot;Mestrado&quot;" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Teste do combo box de escolaridade" name="Then o combo box de escolaridade deve estar com &quot;Mestrado&quot;" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Teste do combo box de escolaridade" name="Scenario: Teste do combo box de escolaridade" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Teste do combo box de escolaridade" name="Scenario: Teste do combo box de escolaridade" time="0.001"/>
+  <testcase classname="Scenario: Verificar valores do combo box" name="Given que o formulário foi aberto" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Verificar valores do combo box" name="Then o combo box de escolaridade deve conter 8 opções" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Verificar valores do combo box" name="And o combo box de escolaridade deve conter a opção &quot;Mestrado&quot;" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Verificar valores do combo box" name="Scenario: Verificar valores do combo box" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Verificar valores do combo box" name="Scenario: Verificar valores do combo box" time="0.001"/>
+  <testcase classname="Scenario: Verificar seleção múltipla do combo de esportes" name="Given que o formulário foi aberto" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Verificar seleção múltipla do combo de esportes" name="When eu seleciono os esportes &quot;Natacao&quot;, &quot;Corrida&quot; e &quot;O que eh esporte?&quot;" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Verificar seleção múltipla do combo de esportes" name="Then os esportes selecionados devem conter &quot;Natacao&quot;, &quot;Corrida&quot;, e &quot;O que eh esporte?&quot;" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Verificar seleção múltipla do combo de esportes" name="Scenario: Verificar seleção múltipla do combo de esportes" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Verificar seleção múltipla do combo de esportes" name="Scenario: Verificar seleção múltipla do combo de esportes" time="0"/>
+  <testcase classname="Scenario: Interagir com botões" name="Given que o formulário foi aberto" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Interagir com botões" name="When eu clico no botão simples" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Interagir com botões" name="Then o botão deve conter o texto &quot;Obrigado!&quot;" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Interagir com botões" name="Scenario: Interagir com botões" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Interagir com botões" name="Scenario: Interagir com botões" time="0.001"/>
+  <testcase classname="Scenario: Buscar texto na página" name="Given que o formulário foi aberto" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Buscar texto na página" name="Then o título da página deve ser &quot;Campo de Treinamento&quot;" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Buscar texto na página" name="And o texto da página deve conter &quot;Cuidado onde clica, muitas armadilhas...&quot;" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Buscar texto na página" name="Scenario: Buscar texto na página" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Buscar texto na página" name="Scenario: Buscar texto na página" time="0"/>
+  <testcase classname="Scenario: Nome obrigatório" name="Given que o formulário foi aberto" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Nome obrigatório" name="When eu clico no botão de cadastrar" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Nome obrigatório" name="Then devo ver o alerta &quot;Nome eh obrigatorio&quot;" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Nome obrigatório" name="Scenario: Nome obrigatório" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Nome obrigatório" name="Scenario: Nome obrigatório" time="0"/>
+  <testcase classname="Scenario: Sobrenome obrigatório" name="Given que o formulário foi aberto" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Sobrenome obrigatório" name="When eu preencho o nome e clico no botão de cadastrar" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Sobrenome obrigatório" name="Then devo ver o alerta &quot;Sobrenome eh obrigatorio&quot;" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Sobrenome obrigatório" name="Scenario: Sobrenome obrigatório" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Sobrenome obrigatório" name="Scenario: Sobrenome obrigatório" time="0.001"/>
+  <testcase classname="Scenario: Gênero obrigatório" name="Given que o formulário foi aberto" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Gênero obrigatório" name="When eu preencho o nome e o sobrenome e clico no botão de cadastrar" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Gênero obrigatório" name="Then devo ver o alerta &quot;Sexo eh obrigatorio&quot;" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Gênero obrigatório" name="Scenario: Gênero obrigatório" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Gênero obrigatório" name="Scenario: Gênero obrigatório" time="0"/>
+  <testcase classname="Scenario: Validar vegetariano" name="Given que o formulário foi aberto" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Validar vegetariano" name="When eu preencho o nome, sobrenome e seleciono as opções de sexo e comida" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Validar vegetariano" name="Then devo ver o alerta &quot;Tem certeza que voce eh vegetariano?&quot;" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Validar vegetariano" name="Scenario: Validar vegetariano" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Validar vegetariano" name="Scenario: Validar vegetariano" time="0.001"/>
+</testsuite>
