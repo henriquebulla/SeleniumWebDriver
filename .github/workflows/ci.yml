@@ -18,13 +18,14 @@ jobs:
         uses: actions/setup-java@v3
         with:
           java-version: '11'
-          distribution: 'temurin'  # Atualizado para 'adoptium'
+          distribution: 'temurin'
 
-      - name: Set up Maven (se usar Maven)
+      - name: Set up Maven
         uses: actions/setup-java@v3
         with:
           java-version: '11'
-          maven-version: '3.8.1'
+          distribution: 'temurin'
+          maven-version: '4.0.0'
 
       - name: Install dependencies
         run: mvn clean install  # ou ./mvnw install se usar o wrapper do Maven
